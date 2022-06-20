@@ -21,9 +21,10 @@ def handle_meow_murr_message(message: Message):
     chat_id = message.chat.id
     markup = create_keyboard_workup()
     text = message.text
-    if text == "Photograph":
+    if text == "Make a photo":
         photo = get_suzie_photo()
-        bot.send_photo(chat_id, photo, reply_markup=markup)
+        if photo is not None:
+            bot.send_photo(chat_id, photo, reply_markup=markup)
     else:
         phrase = interact_with_suzie(text)
         bot.send_message(chat_id, phrase, reply_markup=markup)
@@ -31,10 +32,10 @@ def handle_meow_murr_message(message: Message):
 
 def create_keyboard_workup():
     markup = ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
-    store_button = KeyboardButton("Stroke")
+    store_button = KeyboardButton("Pet")
     feed_button = KeyboardButton("Feed")
     play_button = KeyboardButton("Play")
-    photograph_button = KeyboardButton("Photograph")
+    photograph_button = KeyboardButton("Make a photo")
     markup.add(store_button, feed_button, play_button, photograph_button)
     return markup
 

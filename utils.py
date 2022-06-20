@@ -3,13 +3,15 @@ import random
 
 def get_suzie_photo():
     result = random.randrange(1, 63)
-    photo = open(f"assets/cat/{result}.jpg", "rb")
-    return photo
+    try:
+        return open(f"assets/cat/{result}.jpg", "rb")
+    except:
+        return None
 
 
 def interact_with_suzie(action: str):
     result = random.randrange(0, 100)
-    if action == "Stroke":
+    if action == "Pet":
         if result < 33:
             return "Suzie says \"Murr\" and begins to flip from side to side. 😽"
         elif result < 66:
