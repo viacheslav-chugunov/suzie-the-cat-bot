@@ -23,8 +23,7 @@ def handle_meow_murr_message(message: Message):
     text = message.text
     if text == "Make a photo":
         photo = get_suzie_photo()
-        if photo is not None:
-            bot.send_photo(chat_id, photo, reply_markup=markup)
+        bot.send_photo(chat_id, photo, reply_markup=markup)
     else:
         phrase = interact_with_suzie(text)
         bot.send_message(chat_id, phrase, reply_markup=markup)
@@ -41,4 +40,4 @@ def create_keyboard_workup():
 
 
 if __name__ == '__main__':
-    bot.polling(none_stop=True)
+    bot.polling(none_stop=True, interval=5)
