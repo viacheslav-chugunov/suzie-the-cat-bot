@@ -3,6 +3,16 @@
 ## General
 A bot that allows you to feed, pet or play with a cat named Suzie. In addition to the above, you can request a photo of a cat and get one random photo from a set of assets.
 
+<p align="center">
+  <img src="https://github.com/viacheslav-chugunov/suzie-the-cat-bot/blob/main/images/preview_1.png" width="200" >
+  <b>&nbsp</b>
+  <img src="https://github.com/viacheslav-chugunov/suzie-the-cat-bot/blob/main/images/preview_2.png" width="200" >
+  <b>&nbsp</b>
+  <img src="https://github.com/viacheslav-chugunov/suzie-the-cat-bot/blob/main/images/preview_3.png" width="200" >
+  <b>&nbsp</b>
+  <img src="https://github.com/viacheslav-chugunov/suzie-the-cat-bot/blob/main/images/preview_4.png" width="200" >
+</p>
+
 ## Licence
 ```
 MIT License
