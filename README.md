@@ -14,7 +14,7 @@ A bot that allows you to feed, pet or play with a cat named Suzie. In addition t
 </p>
 
 ## How to host
-If the bot does not work, then most likely it is not hosted on the server. You can run main.py through the console or IDE and the bot will work!
+If the bot does not work, then most likely it is not hosted on the server. You can run `main.py` through the console or IDE and the bot will work!
 
 ## Licence
 ```
