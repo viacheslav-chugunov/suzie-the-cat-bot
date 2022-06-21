@@ -1,7 +1,7 @@
 # Suzie the cat telegram bot
 
 ## General
-A bot that allows you to feed, pet or play with a cat named Susie. In addition to the above, you can request a photo of a cat and get one random photo from a set of assets.
+A bot that allows you to feed, pet or play with a cat named Suzie. In addition to the above, you can request a photo of a cat and get one random photo from a set of assets.
 
 ## Licence
 ```
