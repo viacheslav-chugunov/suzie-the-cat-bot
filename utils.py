@@ -12,7 +12,7 @@ def interact_with_suzie(action: str):
         if result < 33:
             return "Suzie says \"Murr\" and begins to flip from side to side. 😽"
         elif result < 66:
-            return "Suzie slowly lies on her bally and closes her eyes. 😸"
+            return "Suzie slowly lies on her belly and closes her eyes. 😸"
         else:
             return "Suzie quickly gets up and runs away. 🐈‍⬛"
     elif action == "Feed":
