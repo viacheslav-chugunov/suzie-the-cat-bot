@@ -1,7 +1,7 @@
 # Suzie the cat telegram bot
 
 ## General
-A bot that allows you to feed, pet or play with a cat named Suzie. In addition to the above, you can request a photo of a cat and get one random photo from a set of assets.
+A bot that allows you to feed, pet or play with a cat named Suzie. In addition to the above, you can request a photo of a cat and get one random photo from a [set of assets](https://github.com/viacheslav-chugunov/suzie-the-cat-bot/tree/main/assets/cat). You can try the bot [here](t.me/suziethecatbot).
 
 <p align="center">
   <img src="https://github.com/viacheslav-chugunov/suzie-the-cat-bot/blob/main/images/preview_1.png" width="150" >
@@ -12,6 +12,9 @@ A bot that allows you to feed, pet or play with a cat named Suzie. In addition t
   <b>&nbsp</b>
   <img src="https://github.com/viacheslav-chugunov/suzie-the-cat-bot/blob/main/images/preview_4.png" width="150" >
 </p>
+
+## How to host
+If the bot does not work, then most likely it is not hosted on the server. You can run main.py through the console or IDE and the bot will work!
 
 ## Licence
 ```
